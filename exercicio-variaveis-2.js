@@ -1,8 +1,4 @@
-let F = 73
+let F = 73; //Temperatura em farenheits
+let C = (F - 32) * (5 / 9); // Temperatura em Celcius
 
-let C = (10 - 32) \* \frac{ 5 } { 9 }
-C = 10 \* \frac{ 5 } { 9 }
-C = (73 - 32) \* \frac{ 5 } { 9 }
-C ≅ 23
-
-//O seu programa deverá imprimir graus em Celsius com base no input recebido. Teste
+console.log(`A temperatura em farenheits de 73º é referente a ${C}`);
