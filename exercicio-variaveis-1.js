@@ -1,6 +1,6 @@
-const a = 1.7;
-const p = 82;
+const altura = 1.83; //Altura da pessoa
+const peso = 110; // Peso da pessoa
 
-const imc = p / (a * a);
+const imc = peso / (altura * altura); //Formula para calculo de IMC
 
 console.log('O IMC é: ', imc);
